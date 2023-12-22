@@ -31,7 +31,7 @@ const Login = () => {
     }
 
     const onchange = (e) => {
-        setcredentials({ ...credentials, [e.target.name]: e.target.value })
+        setcredentials({ ...credentials, [e.target.name]: e.target.value })//... these indicate jo pahke se hai wo rahne do uske aage ye bhi add kar do
     }
     return (
 
