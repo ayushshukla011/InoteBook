@@ -13,7 +13,7 @@ const port= 5000
 
 app.use(express.json())
 
-// app.get('/',(req,res)=>{
+// app.get('/',(req,res)=>
 //     res.send('hellow world')
 // })
 app.use('/auth',require('./routes/auth.js'))
